@@ -1,17 +1,14 @@
- * **English**
- * [简体中文(Chinese Simplified)](https://github.com/yushijinhun/authlib-injector/blob/develop/README.md)
-
 # authlib-injector
-[![latest release](https://img.shields.io/github/v/tag/yushijinhun/authlib-injector?color=yellow&include_prereleases&label=version&sort=semver&style=flat-square)](https://github.com/yushijinhun/authlib-injector/releases)
-[![ci status](https://img.shields.io/github/actions/workflow/status/yushijinhun/authlib-injector/ci.yml?branch=develop)](https://github.com/yushijinhun/authlib-injector/actions?query=workflow%3ACI)
-[![license agpl-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue.svg?style=flat-square)](https://github.com/yushijinhun/authlib-injector/blob/develop/LICENSE)
+[![latest release](https://img.shields.io/github/v/tag/1ly4s0/minecraft-authlib-injector?color=yellow&include_prereleases&label=version&sort=semver&style=flat-square)](https://github.com/1ly4s0/minecraft-authlib-injector/releases)
+[![ci status](https://img.shields.io/github/actions/workflow/status/1ly4s0/minecraft-authlib-injector/ci.yml?branch=develop)](https://github.com/1ly4s0/minecraft-authlib-injector/actions?query=workflow%3ACI)
+[![license agpl-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue.svg?style=flat-square)](https://github.com/1ly4s0/minecraft-authlib-injector/blob/develop/LICENSE)
 
 authlib-injector enables you to build a Minecraft authentication system offering all the features that genuine Minecraft has.
 
 **[See the wiki](https://github.com/yushijinhun/authlib-injector/wiki) for documents and detailed descriptions.**
 
 ## Download
-You can download the latest authlib-injector build from [here](https://authlib-injector.yushi.moe/).
+You can download the latest authlib-injector build from [here](https://github.com/1ly4s0/minecraft-authlib-injector/releases).
 
 ## Build
 Dependencies: Gradle, JDK 17+. The target Java platform version is 8.
@@ -25,7 +22,12 @@ Build output can be found in `build/libs`.
 ## Deploy
 Configure Minecraft server with the following JVM parameter:
 ```
--javaagent:{/path/to/authlib-injector.jar}={Authentication Server URL}
+java -xxx -xxx -javaagent:(/path/to/authlib-injector.jar)=(Authentication Server URL)
+```
+
+## Example
+```
+java -xxx -xxx -javaagent:/libs/authlib-injector.jar=http://localhost
 ```
 
 ## Options
@@ -110,7 +112,7 @@ Configure Minecraft server with the following JVM parameter:
 ```
 
 ## License
-This work is licensed under the [GNU Affero General Public License v3.0](https://github.com/yushijinhun/authlib-injector/blob/develop/LICENSE) or later, with the "AUTHLIB-INJECTOR" exception.
+This work is licensed under the [GNU Affero General Public License v3.0](https://github.com/1ly4s0/minecraft-authlib-injector/blob/main/LICENSE) or later, with the "AUTHLIB-INJECTOR" exception.
 
 > **"AUTHLIB-INJECTOR" EXCEPTION TO THE AGPL**
 >
