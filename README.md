@@ -5,8 +5,6 @@
 
 authlib-injector enables you to build a Minecraft authentication system offering all the features that genuine Minecraft has.
 
-**[See the wiki](https://github.com/yushijinhun/authlib-injector/wiki) for documents and detailed descriptions.**
-
 ## Download
 You can download the latest authlib-injector build from [here](https://github.com/1ly4s0/minecraft-authlib-injector/releases).
 
